@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#7C4DFF</color>
+    <color name="primary_dark">#5E35B1</color>
+    <color name="secondary">#FF4081</color>
+    <color name="fondo">#0F0E17</color>
+    <color name="superficie">#1C1B29</color>
+    <color name="texto">#FFFFFE</color>
+    <color name="texto_secundario">#A7A9BE</color>
+    <color name="tarifa">#2CB67D</color>
+    <color name="white">#FFFFFF</color>
+</resources>

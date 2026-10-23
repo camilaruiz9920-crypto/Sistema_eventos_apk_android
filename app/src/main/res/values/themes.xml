@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Tema Material 3 oscuro personalizado -->
+    <style name="Theme.GestionEventos" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/secondary</item>
+        <item name="colorSurface">@color/superficie</item>
+        <item name="colorOnSurface">@color/texto</item>
+        <item name="android:colorBackground">@color/fondo</item>
+        <item name="android:statusBarColor">@color/fondo</item>
+        <item name="android:navigationBarColor">@color/fondo</item>
+    </style>
+
+    <!-- Campos de texto con contorno -->
+    <style name="Widget.Eventos.TextInput" parent="Widget.Material3.TextInputLayout.OutlinedBox">
+        <item name="boxCornerRadiusTopStart">14dp</item>
+        <item name="boxCornerRadiusTopEnd">14dp</item>
+        <item name="boxCornerRadiusBottomStart">14dp</item>
+        <item name="boxCornerRadiusBottomEnd">14dp</item>
+        <item name="boxStrokeColor">@color/primary</item>
+        <item name="android:layout_marginTop">12dp</item>
+    </style>
+
+    <!-- Botón principal -->
+    <style name="Widget.Eventos.Button" parent="Widget.Material3.Button">
+        <item name="cornerRadius">14dp</item>
+        <item name="android:minHeight">56dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginTop">24dp</item>
+    </style>
+</resources>
